@@ -21,14 +21,16 @@ describe('IMDB Search', () => {
   });
 
   it('can search by clicking search button', () => {
-      // make a search
-      cy.get('input[id="suggestion-search"]').type('star wars {enter}')
+      // write a text
+      cy.get('input[id="suggestion-search"]').type('star wars')
+      // click search button
+      cy.get('[id="suggestion-search-button"]').click()
       // check that there is the searched item
       cy.get('[data-testid="find-results-section-title"]').contains('star wars', { matchCase: false })
   });
 
   it('can search by clicking a suggestion', () => {
-      // make a search
+      // write a text
       cy.get('input[id="suggestion-search"]').type('star wars')
       // click on the first result
       cy.get('[id="react-autowhatever-1--item-0"]').click()
@@ -36,7 +38,7 @@ describe('IMDB Search', () => {
       cy.get('h1').contains('star wars', { matchCase: false })
   });
 
-  // test with parameters check search with different inputs
+  // check search with different inputs
   paramsInput.forEach((test) => {
       it('can find all with different inputs', () => {
         // enter text for the search
@@ -60,14 +62,14 @@ describe('IMDB Search', () => {
       cy.get('span').contains('Something went wrong. Please reload the page and try again.', { matchCase: false })
   });
 
-  // test with parameters check search with different categories
+  // check search with different categories
   paramsCategories.forEach((test) => {
       it('can find different categories', () => {
         // select a category
         cy.selectCategory(test.category)
         // enter text for the search
         cy.get('input[id="suggestion-search"]').type(test.name + '{enter}')
-        // check that there is a Title block
+        // check that there is a title block
         cy.get('h3[class="ipc-title__text"]').contains(test.header)
         // check that there is the searched item
         cy.get('[data-testid='+test.content+']').contains(test.name, { matchCase: false })

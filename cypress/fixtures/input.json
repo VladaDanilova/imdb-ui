@@ -4,8 +4,8 @@
     "output": "The last of us"
   },
   {
-    "input": "The last of us",
-    "output": "The LAst of US"
+    "input": "The LAst of US",
+    "output": "The last of us"
   },
   {
     "input": "     the last of us       ",
