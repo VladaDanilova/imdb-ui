@@ -16,6 +16,17 @@
     "name": "tom hanks",
     "header": "People",
     "content": "find-results-section-name"
+  },
+  {
+    "category": "Companies",
+    "name": "disney",
+    "header": "Companies",
+    "content": "find-results-section-company"
+  },
+  {
+    "category": "Keywords",
+    "name": "sun",
+    "header": "Keywords",
+    "content": "find-results-section-keyword"
   }
-
 ]
