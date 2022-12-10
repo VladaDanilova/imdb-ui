@@ -1,0 +1,35 @@
+[
+  {
+    "input": "The last of us",
+    "output": "The last of us"
+  },
+  {
+    "input": "The last of us",
+    "output": "The LAst of US"
+  },
+  {
+    "input": "     the last of us       ",
+    "output": "The last of us"
+  },
+  {
+    "input": "THE LAST OF US",
+    "output": "The last of us"
+  },
+  {
+    "input": "The lats of us ?!2",
+    "output": "The last of us"
+  },
+  {
+    "input": "2033",
+    "output": "2033"
+  },
+  {
+    "input": "Трансформеры",
+    "output": "Transformers"
+  },
+  {
+    "input": " ~! @ # $ % ^* () _🥰✨✅🙂",
+    "output": "No results found for"
+  }
+
+]
