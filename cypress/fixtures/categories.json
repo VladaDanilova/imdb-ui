@@ -3,19 +3,19 @@
     "category": "Title",
     "name": "The last of us",
     "header": "Title",
-    "contant": "find-results-section-title"
+    "content": "find-results-section-title"
   },
   {
     "category": "TV Episodes",
     "name": "The last of us",
     "header": "TV Episodes",
-    "contant": "find-results-section-title"
+    "content": "find-results-section-title"
   },
   {
     "category": "Celebs",
     "name": "tom hanks",
     "header": "People",
-    "contant": "find-results-section-name"
+    "content": "find-results-section-name"
   }
 
 ]

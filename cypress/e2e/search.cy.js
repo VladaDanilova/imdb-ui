@@ -70,7 +70,7 @@ describe('IMDB Search', () => {
         // check that there is a Title block
         cy.get('h3[class="ipc-title__text"]').contains(test.header)
         // check that there is the searched item
-        cy.get('[data-testid='+test.contant+']').contains(test.name, { matchCase: false })
+        cy.get('[data-testid='+test.content+']').contains(test.name, { matchCase: false })
       });
   });
 
