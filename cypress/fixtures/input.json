@@ -1,35 +1,47 @@
 [
   {
+    "description": "Base",
     "input": "The last of us",
     "output": "The last of us"
   },
   {
+    "description": "upper and lower case",
     "input": "The LAst of US",
     "output": "The last of us"
   },
   {
-    "input": "     the last of us       ",
+    "description": "whitespaces",
+    "input": "     the last of     us       ",
     "output": "The last of us"
   },
   {
+    "description": "upper case",
     "input": "THE LAST OF US",
     "output": "The last of us"
   },
   {
+    "description": "random special characters",
     "input": "The lats of us ?!2",
     "output": "The last of us"
   },
   {
+    "description": "numbers",
     "input": "2033",
     "output": "2033"
   },
   {
+    "description": "another language",
     "input": "Трансформеры",
     "output": "Transformers"
   },
   {
+    "description": "special characters as a part of the name",
+    "input": "/askOD.",
+    "output": "/askOD."
+  },
+  {
+    "description": "special characters",
     "input": " ~! @ # $ % ^* () _🥰✨✅🙂",
     "output": "No results found for"
   }
-
 ]
