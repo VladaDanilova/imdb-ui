@@ -65,7 +65,7 @@ Test files are located in cypress/e2e by default.
 Fixtures are used as external pieces of static data that can be used by tests. Fixture files are located in cypress/fixtures by default.  
 File where you add your commonly used functions and custom Commands is located in cypress/support.  
 When we first time open Cypress Test Runner, it creates a cypress.config.js file at the root of the project. It is used to pass any configuration values we require.  
-Also I added folder for objects where I store web elements.  
+Also I added folder for models where I store web elements.  
 
 # How else might you have done things?
 TypeScript can be used instead of JavaScript because TypeScript uses concepts like types and interfaces to describe data being used.  
